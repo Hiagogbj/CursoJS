@@ -21,6 +21,7 @@
             border-radius: 5px;
         }
     </style>
+    <script src="script07.js"></script>
 </head>
 <body>
     <h1>Somando Valores</h1>
@@ -28,16 +29,5 @@
     <input type="number" name="txtn2" id="txtn2">
     <input type="button" value="somar" onclick="somar()">
     <div id="result">Resultado</div>
-    <script>
-        function somar() {
-            const tn1 = document.querySelector('#txtn1')
-            const tn2 = document.querySelector("#txtn2")
-            const res= document.querySelector('#result')
-            const n1 = Number(tn1.value)
-            const n2 = Number(tn2.value)
-            const soma = n1 + n2  
-            res.innerHTML = `A soma entre ${n1} e ${n2} é igual a ${soma}`       
-        }
-    </script>
 </body>
 </html>
