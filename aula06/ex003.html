@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Programa</title>
+    <style>
+        body {
+            background-color: rgb(107, 107, 192);
+            color: white;
+            font: normal 20px Arial
+        }
+        h1 {
+            color: rgb(231, 231, 54);
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Já me livrei da maldição</p>
+    <script>
+        const n1 = Number(window.prompt('Digite um número: '))
+        const n2 = Number(window.prompt("Digite outro número: "))
+        const s = n1 + n2
+        const soma = String(s) // não obrigatório nessa atividade
+        window.alert(`A soma entre ${n1} e ${n2} é igual à ${soma}`) // interpolação
+    </script>
+</body>
+</html>
